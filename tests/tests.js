@@ -1,8 +1,8 @@
 //Test suite for all functions
 'use strict';
-   var findMinMax = require('../app/main').findMinMax;
-   var fizzBuzz = require('../app/main').fizzBuzz;
-   var aritGeo = require('../app/main').aritGeo;
+   var findMinMax = require('../app/index').findMinMax;
+   var fizzBuzz = require('../app/index').fizzBuzz;
+   var aritGeo = require('../app/index').aritGeo;
 
   describe('Min-Max Numbers in a List: ', function () {
     describe('Return the min and max number in the list in a new list follows `[min, max]`', function () {
@@ -78,8 +78,8 @@ describe("Fizz Buzz tests ", function() {
   it("should return 202 since its indivisible by 3 and 5", function() {
     expect(fizzBuzz(202)).toBe(202);
   });
-  it("should return 168 since its indivisible by 3 and 5", function() {
-    expect(fizzBuzz(168)).toBe(168);
+  it("should return 169 since its indivisible by 3 and 5", function() {
+    expect(fizzBuzz(169)).toBe(169);
   });
 
 });
