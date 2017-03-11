@@ -1,0 +1,19 @@
+{
+  "name": "my-andela-tdd",
+  "version": "1.0.0",
+  "description": "version control and tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuthCollins/Ruth-Nnochiri.git"
+  },
+  "author": "ruth nnochiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuthCollins/Ruth-Nnochiri/issues"
+  },
+  "homepage": "https://github.com/RuthCollins/Ruth-Nnochiri#readme"
+}
