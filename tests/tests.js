@@ -72,14 +72,14 @@ describe("Fizz Buzz tests ", function() {
     expect(fizzBuzz(7)).toBe(7);
   });
 
-  it("should return 101 since its indivisible by 3 and 5", function() {
+  it("should return 401 since its indivisible by 3 and 5", function() {
     expect(fizzBuzz(401)).toBe(401);
   });
-  it("should return 101 since its indivisible by 3 and 5", function() {
+  it("should return 202 since its indivisible by 3 and 5", function() {
     expect(fizzBuzz(202)).toBe(202);
   });
-  it("should return 101 since its indivisible by 3 and 5", function() {
-    expect(fizzBuzz(301)).toBe(301);
+  it("should return 168 since its indivisible by 3 and 5", function() {
+    expect(fizzBuzz(168)).toBe(168);
   });
 
 });
@@ -129,8 +129,8 @@ describe("Determine the sequence of an array of numbers: ", function() {
 
   describe("Case for neither arithmetic nor geometric sequence", function() {
 
-    it("should return -1 for [1, 2, 3, 5, 8]", function() {
-      expect(aritGeo([1, 4, 3, 5, 56])).toEqual(-1);
+    it("should return -1 for [1, 2, 3, 5, 12]", function() {
+      expect(aritGeo([1, 4, 3, 5, 12])).toEqual(-1);
     });
 
     it("should return -1 for [1, 3, 6, 10, 15]", function() {
