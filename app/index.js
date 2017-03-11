@@ -1,7 +1,6 @@
-//this is my main code
 module.exports = {
 
-findMinMax: function (arr){
+findMinMax: function (arr){  //This is th function findMinMax
     var min = Math.min(...arr);
     var max = Math.max(...arr);
     var result = [];
@@ -14,7 +13,7 @@ findMinMax: function (arr){
         return result
 },
 
-fizzBuzz: function(n){
+fizzBuzz: function(n){  //This is th function fizzBuzz
 	if(n % 3 === 0 && n % 5 === 0){
 		return ("FizzBuzz");
 	}
@@ -35,7 +34,7 @@ fizzBuzz: function(n){
 }
 },
 
-aritGeo: function(arr){
+aritGeo: function(arr){   //This is th function aritGeo
     var first_term = arr[0];
     var second_term = arr[1];
     var comdif = arr[1] - arr[0];

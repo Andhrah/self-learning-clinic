@@ -1,4 +1,4 @@
-//ready to load
+//Test suite for all functions
 'use strict';
    var findMinMax = require('../app/main').findMinMax;
    var fizzBuzz = require('../app/main').fizzBuzz;
@@ -73,7 +73,7 @@ describe("Fizz Buzz tests ", function() {
   });
 
   it("should return 101 since its indivisible by 3 and 5", function() {
-    expect(fizzBuzz(101)).toBe(101);
+    expect(fizzBuzz(401)).toBe(401);
   });
   it("should return 101 since its indivisible by 3 and 5", function() {
     expect(fizzBuzz(202)).toBe(202);
