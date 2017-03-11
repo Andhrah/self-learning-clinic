@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RuthCollins/Ruth-Nnochiri/issues"
   },
-  "homepage": "https://github.com/RuthCollins/Ruth-Nnochiri#readme"
+  "homepage": "https://github.com/RuthCollins/Ruth-Nnochiri#readme",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  }
 }
